@@ -1,14 +1,16 @@
-Get-AppxPackage *3DBuilder* | Remove-AppxPackage
-Get-AppxPackage *Candy* | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
-Get-AppxPackage *Office* | Remove-AppxPackage
-Get-AppxPackage *XboxIdentityProvider | Remove-AppxPackage
-Get-AppxPackage *Bing* | Remove-AppxPackage
-Get-AppxPackage *Phone | Remove-AppxPackage
-Get-AppxPackage *SolitaireCollection | Remove-AppxPackage
-Get-AppxPackage *People | Remove-AppxPackage
-Get-AppxPackage *Twitter | Remove-AppxPackage
-Get-AppxPackage *Zune* | Remove-AppxPackage
-Get-AppxPackage *Getstarted | Remove-AppxPackage
-Get-AppxPackage *SkypeApp | Remove-AppxPackage
+Get-AppxPackage *3DBuilder* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Candy* -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxApp -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsMaps -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Office* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *XboxIdentityProvider -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Bing* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Phone -AllUsers | Remove-AppxPackage
+Get-AppxPackage *SolitaireCollection -AllUsers | Remove-AppxPackage
+Get-AppxPackage *People -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Twitter -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Zune* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Getstarted -AllUsers | Remove-AppxPackage
+Get-AppxPackage *SkypeApp -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Facebook* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Netflix -AllUsers | Remove-AppxPackage
