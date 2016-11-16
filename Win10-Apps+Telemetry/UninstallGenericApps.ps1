@@ -14,3 +14,11 @@ Get-AppxPackage *Getstarted -AllUsers | Remove-AppxPackage
 Get-AppxPackage *SkypeApp -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Facebook* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Netflix -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Wunderlist -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Duolingo* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *EclipseManager -AllUsers | Remove-AppxPackage
+Get-AppxPackage Flipboard.Flipboard -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.NetworkSpeedTest -AllUsers | Remove-AppxPackage
+Get-AppxPackage *PicsArt-PhotoStudio -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.FreshPaint -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Snapfish -AllUsers | Remove-AppxPackage
