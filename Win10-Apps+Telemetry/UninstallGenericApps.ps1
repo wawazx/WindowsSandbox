@@ -9,7 +9,6 @@ Get-AppxPackage *Phone -AllUsers | Remove-AppxPackage
 Get-AppxPackage *SolitaireCollection -AllUsers | Remove-AppxPackage
 Get-AppxPackage *People -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Twitter -AllUsers | Remove-AppxPackage
-Get-AppxPackage *Zune* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Getstarted -AllUsers | Remove-AppxPackage
 Get-AppxPackage *SkypeApp -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Facebook* -AllUsers | Remove-AppxPackage
@@ -22,3 +21,7 @@ Get-AppxPackage Microsoft.NetworkSpeedTest -AllUsers | Remove-AppxPackage
 Get-AppxPackage *PicsArt-PhotoStudio -AllUsers | Remove-AppxPackage
 Get-AppxPackage Microsoft.FreshPaint -AllUsers | Remove-AppxPackage
 Get-AppxPackage *Snapfish -AllUsers | Remove-AppxPackage
+Get-AppxPackage *eBay -AllUsers | Remove-AppxPackage
+Get-AppxPackage McAfee* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *PlayReadyClient* -AllUsers | Remove-AppxPackage
+Get-AppxPackage *Amazon -AllUsers | Remove-AppxPackage
