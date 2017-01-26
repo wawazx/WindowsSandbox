@@ -1,5 +1,6 @@
-Content of the folder PSTools (current version 2.45) comes from TechNet Microsoft Windows Sysinternals.
-I DO NOT OWN THIS SOFTWARE, NEITHER DO I HOLD ANY RESPONSIBILITY FOR ITS USAGE. Use at your own risks!
+--- THIS SECTION IS DEPRECATED AND WON'T BE MAINTAINTED ---
+
+Download PSTools in the following link:
 Source: https://technet.microsoft.com/en-us/sysinternals/pstools.aspx
 
 The registry key "PSTools_EULA_Accept.reg" adds the keys for removing the EULA window from first running any PSTool.
